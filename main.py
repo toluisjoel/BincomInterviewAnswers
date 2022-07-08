@@ -89,7 +89,6 @@ print(f'Question 8 => Random digit to base10: {base_2} -> {to_base_10}')
 
 # Solution to question 9 (Fibonacci sequence)
 sequence = [0, 1]
-n1, n2 = 0, 1
 for i in range(1, (50-1)):
     sequence.append(sequence[i - 1] + sequence[i])
 print(f'Question 9 => Sum of first 50 Fibonacci sequence: {sum(sequence)}')
